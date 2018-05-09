@@ -116,6 +116,46 @@
           }
         }
       }
+    },
+    "YTPlayer": {
+      "root": "projects/ytplayer",
+      "sourceRoot": "projects/ytplayer/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ytplayer/tsconfig.lib.json",
+            "project": "projects/ytplayer/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "project": "projects/ytplayer/ng-package.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ytplayer/src/test.ts",
+            "tsConfig": "projects/ytplayer/tsconfig.spec.json",
+            "karmaConfig": "projects/ytplayer/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ytplayer/tsconfig.lib.json",
+              "projects/ytplayer/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "angular-components-library"
