@@ -1,2 +1,3 @@
 angular.json
 tsconfig.json
+*.module.ts
