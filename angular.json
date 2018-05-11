@@ -117,7 +117,7 @@
         }
       }
     },
-    "YTPlayer": {
+    "ytplayer": {
       "root": "projects/ytplayer",
       "sourceRoot": "projects/ytplayer/src",
       "projectType": "library",
