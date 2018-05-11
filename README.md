@@ -1,27 +1,32 @@
-# AngularComponentsLibrary
+# Angular Components Library
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
+The Angular components we maintain and use, check out each one of them below:
 
-## Development server
+* [ng-ytplayer](https://github.com/Jam3/angular-components-library/tree/master/projects/ytplayer)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Development
 
-## Code scaffolding
+1.  Clone the repo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    ```shell
+    git clone https://github.com/Jam3/angular-components-library.git
+    ```
 
-## Build
+2.  Install dependencies
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+    ```shell
+    cd angular-components-library
+    npm install
+    ```
 
-## Running unit tests
+3.  Start hacking
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    ```shell
+    npm start
+    ```
 
-## Running end-to-end tests
+4.  Build the library
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+    ```shell
+    npm run build ytplayer
+    ```
