@@ -13,7 +13,7 @@ import { AppComponent } from './app.component';
     YTPlayerModule,
     BrowserModule
   ],
-  providers: [{ provide: YTPlayerConfig, useValue: new YTPlayerConfig() }],
+  providers: [{ provide: YTPlayerConfig, useValue: { shouldLoadAPI: true, multiplePlaying: false } }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

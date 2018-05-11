@@ -21,7 +21,7 @@ export class YTPlayerService {
   constructor(private config: YTPlayerConfig) {
     this.multiplePlaying = config.multiplePlaying;
 
-    if (config.shouldLoadAPI) {
+    if (config.shouldLoadAPI !== false) {
       loadAPI().then(() => this.apiReady.next(true));
     } else if (this.apiReady.value === false) {
       console.warn('YT API not loaded');
