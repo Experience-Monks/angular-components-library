@@ -8,7 +8,7 @@ import { parseQueryString } from './util';
 @Component({
   selector: 'lib-ytplayer',
   template: '<div [id]="domId"></div>',
-  styles: [':host, :host ::ng-deep iframe { width: 100%; height: 100%; }']
+  styles: [':host, :host ::ng-deep iframe { display: block; width: 100%; height: 100%; }']
 })
 export class YTPlayerComponent implements OnInit, AfterViewInit, OnDestroy {
   @Input() videoId: string;
