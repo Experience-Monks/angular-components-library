@@ -4,5 +4,21 @@
   "peerDependencies": {
     "@angular/common": "^6.0.0",
     "@angular/core": "^6.0.0"
-  }
+  },
+  "description": "An Angular component module for using the embedded YouTube iframe player.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jam3/angular-components-library.git"
+  },
+  "keywords": [
+    "components",
+    "library",
+    "angular"
+  ],
+  "author": "Neo <neo.li@jam3.com> (https://github.com/neo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jam3/angular-components-library/issues"
+  },
+  "homepage": "https://github.com/Jam3/angular-components-library/tree/master/projects/ytplayer#readme"
 }

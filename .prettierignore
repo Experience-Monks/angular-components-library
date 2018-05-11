@@ -1,3 +1,4 @@
 angular.json
 tsconfig.json
+package.json
 *.module.ts
