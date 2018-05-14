@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { YTPlayerModule, YTPlayerConfig } from 'ng-ytplayer';
+import { YTPlayerModule, YTPlayerConfig } from 'ng-youtube-player';
 
 import { AppComponent } from './app.component';
 
