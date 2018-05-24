@@ -2,7 +2,7 @@
 
 The Angular components we maintain and use, check out each one of them below:
 
-* [ng-youtube-player](https://github.com/Jam3/angular-components-library/tree/master/projects/ytplayer)
+* [angular-youtube-player](https://github.com/Jam3/angular-components-library/tree/master/projects/ytplayer)
 
 # Development
 

@@ -17,7 +17,7 @@
       "dom"
     ],
     "paths": {
-      "ng-youtube-player": [
+      "angular-youtube-player": [
         "dist/ytplayer"
       ]
     }

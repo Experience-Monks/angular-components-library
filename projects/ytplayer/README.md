@@ -5,7 +5,7 @@ An Angular component module for using the embedded YouTube (iframe) player.
 ## Installation
 
 ```shell
-npm install ng-youtube-player
+npm install angular-youtube-player
 ```
 
 ## Importing the module
@@ -14,7 +14,7 @@ In the module (e.g. `AppModule`) where it will be used:
 
 ```TypeScript
 /* ... */
-import { YTPlayerModule } from 'ng-youtube-player';
+import { YTPlayerModule } from 'angular-youtube-player';
 
 @NgModule({
   /* ... */
@@ -42,7 +42,7 @@ providers: [{ provide: YTPlayerConfig, useValue: { shouldLoadAPI: true, multiple
 You could use either the constructor:
 
 ```TypeScript
-import { YTPlayerConfig } from 'ng-youtube-player';
+import { YTPlayerConfig } from 'angular-youtube-player';
 
 const useValue = new YTPlayerConfig(shouldLoadAPI, multiplePlaying);
 ```

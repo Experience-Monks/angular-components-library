@@ -1,6 +1,6 @@
 import { TestBed, async } from '@angular/core/testing';
 
-import { YTPlayerModule } from 'ng-youtube-player';
+import { YTPlayerModule } from 'angular-youtube-player';
 
 import { AppComponent } from './app.component';
 
