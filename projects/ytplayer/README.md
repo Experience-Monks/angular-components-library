@@ -2,6 +2,12 @@
 
 An Angular component module for using the embedded YouTube (iframe) player.
 
+This is used in a few YouTube projects including [AdBlitz 2018](https://adblitz.withyoutube.com).
+
+## See Also
+
+* [Other component libraries](https://github.com/Jam3/angular-components-library#angular-components-library)
+
 ## Installation
 
 ```shell
