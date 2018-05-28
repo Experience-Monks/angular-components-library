@@ -19,6 +19,9 @@
     "paths": {
       "angular-youtube-player": [
         "dist/ytplayer"
+      ],
+      "slot-machine-button": [
+        "dist/slot-machine-button"
       ]
     }
   }
