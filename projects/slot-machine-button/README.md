@@ -1,6 +1,6 @@
 # Angular Slot Machine Button Component Module
 
-![Slot Machine Buttons Demo](demo.gif)
+![Slot Machine Buttons Demo](/projects/slot-machine-button/demo.gif)
 
 ## See Also
 
