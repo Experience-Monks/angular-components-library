@@ -5,5 +5,21 @@
     "@angular/common": "^6.0.0",
     "@angular/core": "^6.0.0",
     "gsap": "^2.0.0"
+  },
+  "description": "An Angular component module with slot machine button effects",
+  "homepage": "https://github.com/Jam3/angular-components-library/tree/master/projects/slot-machine-button#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jam3/angular-components-library.git"
+  },
+  "keywords": [
+    "angular",
+    "component",
+    "library"
+  ],
+  "author": "Neo <neo.li@jam3.com> (https://github.com/neo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jam3/angular-components-library/issues"
   }
 }
