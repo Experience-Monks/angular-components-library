@@ -6,12 +6,16 @@ lib-ytplayer {
 
 lib-slot-machine-button {
   display: inline-block;
-  height: 6rem;
-  font-size: 2rem;
+  height: 4rem;
+  font-size: 1.5rem;
   cursor: pointer;
   border: solid 2px #f00;
   border-radius: 1rem;
   padding: 0 2rem;
+}
+
+lib-slot-machine-button:not(:last-child) {
+  margin-right: 2rem;
 }
 
 .part {
