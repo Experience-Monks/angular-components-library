@@ -7,6 +7,41 @@
 * [Other component libraries](https://github.com/Jam3/angular-components-library#angular-components-library)
 * [React slot machine button](https://github.com/Jam3/slot-machine-button)
 
+## Install & Import
+
+```shell
+npm install ng-slot-machine-button
+```
+
+In the module (e.g. `AppModule`) where it will be used:
+
+```TypeScript
+/* ... */
+import { SlotMachineButtonModule } from 'ng-slot-machine-button';
+
+@NgModule({
+  /* ... */
+  imports: [
+    SlotMachineButtonModule,
+    BrowserModule
+  ]
+})
+export class AppModule { }
+```
+
+## Example
+
+### 1 minute setup
+
+```html
+<lib-slot-machine-button [activeOnHover]="true">
+  <lib-slot-machine-wheel>
+    <div class="idle part">Slot Machine Button</div>
+    <div class="active part">Slot Machine Button</div>
+  </lib-slot-machine-wheel>
+</lib-slot-machine-button>
+```
+
 ## Inputs
 
 ```TypeScript
