@@ -31,13 +31,32 @@ export class AppModule { }
 
 ## Example
 
-### 1 minute setup
+#### 1 minute setup
 
 ```html
 <lib-slot-machine-button [activeOnHover]="true">
   <lib-slot-machine-wheel>
     <div class="idle part">Slot Machine Button</div>
     <div class="active part">Slot Machine Button</div>
+  </lib-slot-machine-wheel>
+</lib-slot-machine-button>
+```
+
+#### A more advanced one
+
+```html
+<lib-slot-machine-button [activeOnHover]="true" [bottomToTop]="true" [fadeBack]="true" [fadeBackDuration]="0.3">
+  <lib-slot-machine-wheel>
+    <div class="idle part">Slot</div>
+    <div class="active part">Slot</div>
+  </lib-slot-machine-wheel>
+  <lib-slot-machine-wheel [delay]="0.1">
+    <div class="idle part">Machine</div>
+    <div class="active part">Machine</div>
+  </lib-slot-machine-wheel>
+  <lib-slot-machine-wheel [delay]="0.2">
+    <div class="idle part">Button</div>
+    <div class="active part">Button</div>
   </lib-slot-machine-wheel>
 </lib-slot-machine-button>
 ```
