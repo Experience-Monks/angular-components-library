@@ -7,7 +7,7 @@ import { YTPlayerConfig } from './ytplayer.config';
   imports: [
   ],
   declarations: [YTPlayerComponent],
-  providers: [{ provide: YTPlayerConfig, useValue: new YTPlayerConfig() }],
+  providers: [{ provide: YTPlayerConfig, useValue: YTPlayerConfig.defaultConfig }],
   exports: [YTPlayerComponent]
 })
 export class YTPlayerModule { }
