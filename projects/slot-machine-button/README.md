@@ -4,8 +4,8 @@
 
 ## See Also
 
-* [Other component libraries](https://github.com/Jam3/angular-components-library#angular-components-library)
-* [React slot machine button](https://github.com/Jam3/slot-machine-button)
+- [Other component libraries](https://github.com/Jam3/angular-components-library#angular-components-library)
+- [React slot machine button](https://github.com/Jam3/slot-machine-button)
 
 ## Install & Import
 
