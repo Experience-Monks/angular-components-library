@@ -1,9 +1,10 @@
 {
   "name": "angular-youtube-player",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "peerDependencies": {
-    "@angular/common": "^6.0.0",
-    "@angular/core": "^6.0.0"
+    "@angular/common": ">=6",
+    "@angular/core": ">=6",
+    "@types/youtube": "0.0.38"
   },
   "description": "An Angular component module for using the embedded YouTube iframe player.",
   "repository": {

@@ -1,9 +1,9 @@
 {
   "name": "ng-slot-machine-button",
-  "version": "0.0.1",
+  "version": "1.0.0-alpha.1",
   "peerDependencies": {
-    "@angular/common": "^6.0.0",
-    "@angular/core": "^6.0.0",
+    "@angular/common": ">=6",
+    "@angular/core": ">=6",
     "gsap": "^2.0.0"
   },
   "description": "An Angular component module with slot machine button effects",
